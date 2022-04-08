@@ -2,6 +2,8 @@
 
 A smart contract for crowdsourced, oracle-less betting on future events. Featuring built-in incentive mechanisms for truthful resolution.
 
+Link to Loom explanatory video: <https://www.loom.com/share/cb77120a6fd748708e0081c585f4a7c8>
+
 ## Concept
 
 The contract can be deployed by somebody wishing to start a bet on a future event (the owner). They can allow other participants to participate in the bet. Additionally, they define a number of possible outcomes for the bet and set a wager amount. Also, they define until which time betting is possible. Bettors can place a bet with a smart contract call.
