@@ -88,4 +88,4 @@ This project contains:
 
 ## Where to go from here
 
-It would be nice to let bettors bet/vote secretly. For that, the bets/votes would have to be encrypted. The private key could be distributed to all bettors at the beginning of the bet. Only when all bettors have placed their bet it would be possible to decrypt the bets/votes. But: if one bettor does not participate the bets/votes can not be decrypted.
+It would be nice to let bettors bet/vote secretly. For that, the bets/votes would have to be encrypted. The private key could be distributed to all bettors at the beginning of the bet, split into one part per bettor. Only when all bettors have placed their bet it would be possible to decrypt the bets/votes. But: if one bettor does not participate the bets/votes can not be decrypted.
