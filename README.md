@@ -10,11 +10,11 @@ The contract can be deployed by somebody wishing to start a bet on a future even
 
 After the betting is closed, a voting round is started automatically. All bettors vote on the outcome of the bet via another smart contract call. The result of the bet is calculated using the votes of the bettors. If the majority of the loosing bettors voted for one specific outcome, this outcome is accepted as final result. If there is no majority, the bet is declared a draw. Voting is also limited to a pre-defined period.
 
-After voting the bettors can claim theirs wins. The win amount for each bettor depends on whether the bet is a draw or not.
+After voting the bettors can claim their wins. The win amount for each bettor depends on whether the bet is a draw or not.
 
-In the case of a final result, bettors who bet on the final result are added to the list of winners, plus a random selection of 10% (at least 1) of the bettors that did not bet on the final result but voted on it. This is done for incentivizing truthful voting. 95% of the total wager amount is distributed equally to this list of winners. 5% go to the owner.
+In the case of a final result, bettors who bet on the final result are added to the list of winners, plus a random selection of 10% (at least 1) of the bettors that did not bet on the final result but voted on it. This is done for incentivising truthful voting. 95% of the total wager amount is distributed equally to this list of winners. 5% go to the owner.
 
-In the case of a draw, 50% of the total wager amount is distributed among all bettors who placed a bet. The other 50% go to the owner. This is also done for incentivizing truthful voting.
+In the case of a draw, 50% of the total wager amount is distributed among all bettors who placed a bet. The other 50% go to the owner. This is also done for incentivising truthful voting.
 
 ## Example Story
 
