@@ -10,10 +10,10 @@ pub mod utils;
 
 use models::{Bettor, Fact, Outcome, Phase};
 
+const MINIMUM_BET_NANOSECONDS: u64 = 100;
+const MINIMUM_VOTE_NANOSECONDS: u64 = 100;
+const MINIMUM_CLAIM_NANOSECONDS: u64 = 100;
 const MINIMUM_WAGER: Balance = near!(1);
-const MINIMUM_BET_NANOSECONDS: u64 = 2 * 60 * 1_000_000_000;
-const MINIMUM_VOTE_NANOSECONDS: u64 = 2 * 60 * 1_000_000_000;
-const MINIMUM_CLAIM_NANOSECONDS: u64 = 2 * 60 * 1_000_000_000;
 const MAXIMUM_BETTORS: u8 = 100;
 const MAXIMUM_OUTCOMES: u8 = 50;
 
