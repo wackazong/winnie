@@ -1,0 +1,354 @@
+# ./run.sh --bet wackazong.testnet
+▶️ TEST
+  ... test output
+▶️ BUILD
+  ... build output
+▶️ CREATE BETTOR ACCOUNTS
+  ... near cli output
+▶️ DEPLOY
+  ... near cli output
+View call: bet.wackazong.testnet.view()
+{
+  owner: 'wackazong.testnet',
+  current_phase: 'Bet',
+  remaining_seconds: 228,
+  outcomes: [
+    { id: 'B', description: 'Team B will win' },
+    { id: 'A', description: 'Team A will win' },
+    { id: 'Draw', description: 'It will be a draw' }
+  ],
+  fact: 'Unset',
+  bettors: [
+    {
+      account_id: 'one.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    },
+    {
+      account_id: 'two.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    },
+    {
+      account_id: 'three.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    },
+    {
+      account_id: 'four.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    },
+    {
+      account_id: 'five.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    },
+    {
+      account_id: 'six.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    },
+    {
+      account_id: 'seven.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    },
+    {
+      account_id: 'eight.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    },
+    {
+      account_id: 'nine.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    },
+    {
+      account_id: 'ten.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Invited',
+      outcome: null,
+      vote: null
+    }
+  ]
+}
+▶️ MAKE BETS
+  ... near cli output
+View call: bet.wackazong.testnet.view()
+{
+  owner: 'wackazong.testnet',
+  current_phase: 'Bet',
+  remaining_seconds: 158,
+  outcomes: [
+    { id: 'B', description: 'Team B will win' },
+    { id: 'A', description: 'Team A will win' },
+    { id: 'Draw', description: 'It will be a draw' }
+  ],
+  fact: 'Unset',
+  bettors: [
+    {
+      account_id: 'one.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'Draw',
+      vote: null
+    },
+    {
+      account_id: 'two.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'A',
+      vote: null
+    },
+    {
+      account_id: 'three.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'A',
+      vote: null
+    },
+    {
+      account_id: 'four.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'A',
+      vote: null
+    },
+    {
+      account_id: 'five.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'B',
+      vote: null
+    },
+    {
+      account_id: 'six.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'B',
+      vote: null
+    },
+    {
+      account_id: 'seven.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'Draw',
+      vote: null
+    },
+    {
+      account_id: 'eight.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'B',
+      vote: null
+    },
+    {
+      account_id: 'nine.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'B',
+      vote: null
+    },
+    {
+      account_id: 'ten.wackazong.testnet',
+      claimed_near: 0,
+      status: 'PlacedBet',
+      outcome: 'A',
+      vote: null
+    }
+  ]
+}
+▶️ MAKE VOTES
+  ... near cli output
+View call: bet.wackazong.testnet.view()
+{
+  owner: 'wackazong.testnet',
+  current_phase: 'Vote',
+  remaining_seconds: 322,
+  outcomes: [
+    { id: 'B', description: 'Team B will win' },
+    { id: 'A', description: 'Team A will win' },
+    { id: 'Draw', description: 'It will be a draw' }
+  ],
+  fact: 'Unset',
+  bettors: [
+    {
+      account_id: 'one.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'Draw',
+      vote: 'A'
+    },
+    {
+      account_id: 'two.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'A',
+      vote: 'A'
+    },
+    {
+      account_id: 'three.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'A',
+      vote: 'A'
+    },
+    {
+      account_id: 'four.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'A',
+      vote: 'A'
+    },
+    {
+      account_id: 'five.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'B',
+      vote: 'A'
+    },
+    {
+      account_id: 'six.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'B',
+      vote: 'A'
+    },
+    {
+      account_id: 'seven.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'Draw',
+      vote: 'A'
+    },
+    {
+      account_id: 'eight.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'B',
+      vote: 'A'
+    },
+    {
+      account_id: 'nine.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'B',
+      vote: 'B'
+    },
+    {
+      account_id: 'ten.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Voted',
+      outcome: 'A',
+      vote: 'A'
+    }
+  ]
+}
+▶️ CLAIM
+  ... near cli output
+View call: bet.wackazong.testnet.view()
+{
+  owner: 'wackazong.testnet',
+  current_phase: 'Claim',
+  remaining_seconds: 483,
+  outcomes: [
+    { id: 'B', description: 'Team B will win' },
+    { id: 'A', description: 'Team A will win' },
+    { id: 'Draw', description: 'It will be a draw' }
+  ],
+  fact: { Set: { outcome: 'A' } },
+  bettors: [
+    {
+      account_id: 'one.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Claimed',
+      outcome: 'Draw',
+      vote: 'A'
+    },
+    {
+      account_id: 'two.wackazong.testnet',
+      claimed_near: 1.9,
+      status: 'Claimed',
+      outcome: 'A',
+      vote: 'A'
+    },
+    {
+      account_id: 'three.wackazong.testnet',
+      claimed_near: 1.9,
+      status: 'Claimed',
+      outcome: 'A',
+      vote: 'A'
+    },
+    {
+      account_id: 'four.wackazong.testnet',
+      claimed_near: 1.9,
+      status: 'Claimed',
+      outcome: 'A',
+      vote: 'A'
+    },
+    {
+      account_id: 'five.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Claimed',
+      outcome: 'B',
+      vote: 'A'
+    },
+    {
+      account_id: 'six.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Claimed',
+      outcome: 'B',
+      vote: 'A'
+    },
+    {
+      account_id: 'seven.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Claimed',
+      outcome: 'Draw',
+      vote: 'A'
+    },
+    {
+      account_id: 'eight.wackazong.testnet',
+      claimed_near: 1.9,
+      status: 'Claimed',
+      outcome: 'B',
+      vote: 'A'
+    },
+    {
+      account_id: 'nine.wackazong.testnet',
+      claimed_near: 0,
+      status: 'Claimed',
+      outcome: 'B',
+      vote: 'B'
+    },
+    {
+      account_id: 'ten.wackazong.testnet',
+      claimed_near: 1.9,
+      status: 'Claimed',
+      outcome: 'A',
+      vote: 'A'
+    }
+  ]
+}
+▶️ TERMINATE
+  ... near cli output
+▶️ END

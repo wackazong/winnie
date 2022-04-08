@@ -1,0 +1,26 @@
+[package]
+name = "winnie"
+version = "0.1.0"
+authors = ["ALEXander <alexander@wackazong.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "4.0.0-pre.7"
+near-primitives-core = "0"
+near-rng = "0.1"
+
+[profile.release]
+codegen-units = 1
+# Tell `rustc` to optimize for small code size.
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+# Opt into extra safety checks on arithmetic operations https://stackoverflow.com/a/64136471/249801
+overflow-checks = true
+
+[workspace]
+members = []
